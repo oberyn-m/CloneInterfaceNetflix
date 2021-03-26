@@ -1,0 +1,120 @@
+:root {
+  --vermelho: #E50914;
+  --preta: #141414;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--preta);
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+header .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo-img{
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+
+header nav a{
+  text-decoration: none;
+  color: #aaa;
+  margin-right: 0.625rem;
+}
+
+header nav a:hover{
+  color: #fff;
+}
+
+.filme-principal {
+  font-size: 1rem;
+  background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)), url('/CloneInterfaceNetflix/img/capa2.jpg');
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 5px;
+}
+
+.filme-principal .descricao{
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.filme-principal .titulo {
+  margin-top: 5%;
+  font-size: 40px;
+}
+
+.embed-responsive-item{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width:80%;
+  margin:0 auto;
+}
+
+.botao {
+  background: rgba(0,0,0,.50);
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  margin-right: 0.938rem;
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: .3s ease all;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.botao:hover{
+  background-color: white;
+  color: black;
+}
+
+.botao i{
+  margin-right: 8px;
+}
+
+.container {
+  margin-left: 20px;
+}
+
+.filme-principal .container{
+  width: 70%;
+}
+
+.box-filme{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.carrosel-filmes{
+  margin-top: 10px;
+  text-align: center;
+}
