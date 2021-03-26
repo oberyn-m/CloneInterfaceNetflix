@@ -2,10 +2,10 @@
 **A aplicação é um Clone da Interface do Site da Netflix.**
 
 ## Funções Inseridas
-- [A aplicação foi inserido algumas funções extras sendo:]
-- [Favicon para a barra do navegador com a logo da Netflix.]
-- [Logo da Netflix em formato SVG ao invés de texto.]
-- [Iframe em formato de popup para o usuário assistir o filme na própria tela ao clicar no botão.]
+- A aplicação foi inserido algumas funções extras sendo:
+- Favicon para a barra do navegador com a logo da Netflix.
+- Logo da Netflix em formato SVG ao invés de texto.
+- Iframe em formato de popup para o usuário assistir o filme na própria tela ao clicar no botão.
 
 ## Demonstração
 <img src="./img/01.jpg" alt="Exemplo 1">
